@@ -1,5 +1,7 @@
 #Shell Scripting Basics Exercises
 
+To initialize a Bash script, your first line should be #!/bin/bash while subsequent lines should contain your program code. After creating each bash script, ensure to run the chmod u+x <filename> to assign Execute permission to User.
+ 
 Exercise 0: pwd === print working directory
 
 Exercise 1: ls === list directory contents
