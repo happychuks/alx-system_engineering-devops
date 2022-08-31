@@ -34,7 +34,7 @@ Exercise 15: mv [[:upper:]]* /tmp/u Move all files that begin with a capital let
 
 Exercise 16: rm *~ Deletes all files in the current directory that end with a ~
 
-Exercise 17: mkdir -p welcome/to/holberton Create directory welcome in current directory. Create directory to inside directory welcome. Create directory holberton inside directory to. The -p option creates any intermediate directories in the path argument.
+Exercise 17: mkdir -p welcome/to/school Create directory welcome in current directory. Create directory to inside directory welcome. Create directory school inside directory to. The -p option creates any intermediate directories in the path argument.
 
 Exercise 18: ls -map List all files and directories of the current directory, separated by commas. Directory names should end with a /. The listing should be alph ordered, except for dot (.) or dot dot (..), which should be listed at the beginning. The -a option is to show any hidden files. The -p option writes a / at the end of directory names. The -m option streams the output, separating each listing with commas.
 
