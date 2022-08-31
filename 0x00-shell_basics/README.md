@@ -12,7 +12,7 @@ Exercise 3: ls -l === list directory contents in long form
 
 Exercise 4: ls -la === list directory contents in long form, including hidden files
 
-Exercise 5: ls -la Note: Are files ordered?
+Exercise 5: ls -na Note: List directory contents and all hidden files with users and group IDs displayed numerically.
 
 Exercise 6: mkdir /tmp/my_first_directory Create a my_first_directory directory inside the tmp directory
 
