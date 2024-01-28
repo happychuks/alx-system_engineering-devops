@@ -40,4 +40,35 @@ done
 
 ```
 
+## awk
+`awk` is a powerful text processing tool in Unix and Unix-like operating systems. It is designed for pattern scanning and processing. awk allows you to search for specific patterns in text and perform specified actions based on those patterns. It is particularly useful for extracting and manipulating data from text files.
+
+## parsing of logfiles
+Apache is among the most popular web servers in the world, serving 50% of all active websites, no doubt that you will have to interact with it within your career.
+
+As a Full-Stack Software Engineer, you have to master the art of parsing log files.
+log files are saved in .log file format
+
+Sample log parsing
+Write a Bash script that displays the visitor IP along with the HTTP status code from the Apache log file.
+
+Requirement:
+Format: IP followed by HTTP_STATUS_CODE
+output should be in a list format
+```bash
+awk '{print $1 " " $9}' apache-access.log
+```
+Sample output:
+```bash
+185.130.5.207 301
+185.130.5.207 301
+91.224.140.223 200
+62.210.142.23 304
+92.222.20.166 304
+180.76.15.19 200
+2.1.201.36 304
+198.58.99.82 304
+50.116.30.23 304
+209.133.111.211 200
+```
 
