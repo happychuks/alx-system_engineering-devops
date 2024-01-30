@@ -11,7 +11,10 @@ Regular expressions are everywhere and software engineers, no matter their posit
 Read about regexp:
 
 [Regex](http://www.regular-expressions.info/)
+
 [Play with regexp (or compose them):](http://www.w3schools.com/jsref/jsref_obj_regexp.asp)
+
 [PHP/Javascript/Python:](https://regex101.com/)
+
 [Ruby:](http://rubular.com/)
 
