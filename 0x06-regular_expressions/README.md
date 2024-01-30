@@ -9,7 +9,8 @@ One thing you have to be careful with is that different languages use different 
 
 Regular expressions are everywhere and software engineers, no matter their positions, will have to use them during their careers. System administrators and DevOps are the ones using them the most because they are very handy for log parsing
 Read about regexp:
-[](http://www.regular-expressions.info/)
+
+[Regex](http://www.regular-expressions.info/)
 [Play with regexp (or compose them):](http://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 [PHP/Javascript/Python:](https://regex101.com/)
 [Ruby:](http://rubular.com/)
