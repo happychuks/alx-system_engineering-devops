@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 # Define variables
 user="ubuntu"
 private_key="~/.ssh/school"
