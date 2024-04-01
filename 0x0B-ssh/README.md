@@ -2,7 +2,7 @@
 
 In this project, I became familiar connecting to and working
 with servers using the SSH protocol. I worked on a server
-provided by ALX.
+provided in this project assignment.
 
 ## Tasks :page_with_curl:
 
@@ -16,3 +16,6 @@ Holberton-provided server.
 * **2. Client configuration file**
   * [2-ssh_config](./2-ssh_config): SSH configuration file configured to use the private key
 `~/.ssh/holberton` and to refuse authentication using a password.
+
+
+Happy Coding!!!
