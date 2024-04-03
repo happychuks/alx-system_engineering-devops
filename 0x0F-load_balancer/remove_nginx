@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# this deletes everything related to Nginx
+
+# stops ngiz service to avoid conflicts
+sudo systemctl stop nginx
+
+# removes nginx package
+sudo apt remove -y nginx nginx-common nginx-core
+
+# purge nginx config files
+sudo apt purge -y nginx nginx-common nginx-core
+
+# delete nginx config directory
+sudo rm -rf /etc/nginx/
+
+# clean up residual dependencies
+sudo apt autoremove
+
+# check for other nginx related packages
+# dpkg -l | grep nginx
+# sudo apt purge <package_name>
+
+# reinstall Nginx web server
