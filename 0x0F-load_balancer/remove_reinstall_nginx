@@ -22,3 +22,4 @@ sudo apt autoremove
 # sudo apt purge <package_name>
 
 # reinstall Nginx web server
+sudo ./0-custom_http_response-header
