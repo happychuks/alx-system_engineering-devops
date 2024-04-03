@@ -15,7 +15,7 @@ sudo apt purge -y nginx nginx-common nginx-core
 sudo rm -rf /etc/nginx/
 
 # clean up residual dependencies
-sudo apt autoremove
+sudo apt autoremove -y
 
 # check for other nginx related packages
 # dpkg -l | grep nginx
