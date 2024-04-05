@@ -1,9 +1,12 @@
 # Solution to HTTPS_SSL Project
 
+## All configurations are to be done in the load balancer server
+
 -	Task 0[0-world_wide_web]: Add the sub-domains and their respective IP address on the domain management portal (.tech)
 
 -	Task 1[1-haproxy_ssl_termination]: 
-teps to get your domain serving over HTTPS:
+
+# Steps to get your domain serving over HTTPS:
 
 ## 1. Generating your SSL Certificate from Certbot:
 
