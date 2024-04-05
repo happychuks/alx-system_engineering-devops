@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#remote log in to load balancer 01
+
+ssh ubuntu@54.172.80.228

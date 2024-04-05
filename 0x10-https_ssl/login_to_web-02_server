@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#remote log in to my server 
+
+ssh ubuntu@34.202.164.67
