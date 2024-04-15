@@ -36,7 +36,7 @@ sudo ufw enable
 If you encounter any issues with the firewall, refer to the following troubleshooting steps:
 - Check list of active connections on server: `netstat -lpn`
 - Check for ports being listen to on Nginx server: `grep listen /etc/nginx/sites-enabled/default`
-- Check the firewall status: `suod ufw status`
+- Check the firewall status: `sudo ufw status`
 - Ensure that the configuration file is correctly set up.
 - Restart the firewall service: `sudo ufw enable`
 
