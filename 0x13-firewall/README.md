@@ -40,3 +40,15 @@ If you encounter any issues with the firewall, refer to the following troublesho
 - Ensure that the configuration file is correctly set up.
 - Restart the firewall service: `sudo ufw enable`
 
+## Port Forwarding using UFW
+Firewalls can not only filter requests, they can also forward them.
+
+Requirements:
+Configuring a server so that its firewall redirects port 8080/TCP to port 80/TCP using ufw.
+Run the following commands:
+```bash
+sudo vi /etc/ufw/before.rules #open the ufw config file (before.rules)
+sudo ufw allow 8080 #to allow port 8080
+sudo service ufw restart #to restart ufw for the config to be applied
+sudo ufw enable #enter y to proceed operation when prompted
+```
