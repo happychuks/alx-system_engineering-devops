@@ -55,6 +55,13 @@ server {
 }
 ```
 
+### To enable the Nginx server block configuration we’ve just created, link the file to the sites-enabled directory:
+```bash
+sudo ln -s /etc/nginx/sites-available/<configFile> /etc/nginx/sites-enabled/default
+```
+After linking, restart the Nginx process to read the new config:
+```sudo service nginx restart```
+
 ## For gunicorn.service
 Create a gunicorn config file using:
 
