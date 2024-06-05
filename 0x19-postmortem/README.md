@@ -39,4 +39,6 @@ A typical postmortem report should include the following sections:
 - A software development team experiences a server crash that results in data loss and downtime.
 - The postmortem report identifies the root cause as a software bug and provides recommendations for improving the testing process to prevent similar failures in the future.
 
+See sample Postmortem report [Here](https://medium.com/@happychukwuma/postmortem-report-budget-expense-tracker-website-outage-for-documentation-purposes-only-0e123bc91176)
+
 By following these guidelines and best practices, organizations can create effective postmortem reports that help them learn from their mistakes and improve their processes.
