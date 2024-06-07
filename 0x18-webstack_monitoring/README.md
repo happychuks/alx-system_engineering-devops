@@ -10,11 +10,11 @@ Web stack monitoring can be broken down into 2 categories:
 
 Here are few famous monitoring tools:
 
-## NewRelic
-NewRelic requires you to add a piece of JavaScript to your website, this agent will collect information and send it back to the New Relic servers. It will give you a detailed analysis of how quickly your website loads in a browser, with a detailed analysis at every level of the stack. If the website is loading too slowly or users are experiencing error (500), there is a feature that allows you to trigger an alert. NewRelic now does much more than this, I’ll let you discover the rest.
-
 ## DataDog
 DataDog allows you to measure and monitor everything with graphs. It gathers performance data from all your application components. The service has a lot of integrations. You usually just need to properly configure your alert and you are good to go with solid monitoring coverage.
+
+## NewRelic
+NewRelic requires you to add a piece of JavaScript to your website, this agent will collect information and send it back to the New Relic servers. It will give you a detailed analysis of how quickly your website loads in a browser, with a detailed analysis at every level of the stack. If the website is loading too slowly or users are experiencing error (500), there is a feature that allows you to trigger an alert. NewRelic now does much more than this, I’ll let you discover the rest.
 
 ## Uptime Robot
 Uptime Robot is a simple service that will check that your website is responding from multiple locations in the world. This is the bare minimum when you host a website.
@@ -25,4 +25,6 @@ Nagios is an open source project started in 1999, it is among the most widely us
 ## WaveFront
 Wavefront is a cutting edge monitoring service funded by great software engineers who’ve built monitoring tools for the best tech companies in Silicon Valley. The idea is to be able to analyze anything that can produce data points. A query language that looks like SQL allows users to apply mathematical operations to these data points to extract values or detect anomalies from the time series data. While it takes some time to get used to the tool, it’s the type of monitoring that the best companies are using. To my knowledge, LinkedIn, Facebook and DropBox are using a very similar tool for their monitoring needs.
 
-To Readmore: Visit https://iykethe1st.hashnode.dev/how-to-install-and-use-datadog-agent-on-your-nginx-server
+For this project, we will be choosing Datadog as our monitoring tool. 
+
+To Readmore, visit: [How to setup Datadog for monitoring](https://iykethe1st.hashnode.dev/how-to-install-and-use-datadog-agent-on-your-nginx-server)
