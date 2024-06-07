@@ -3,6 +3,8 @@
 ## Postmortem Report
 A postmortem report is a document that provides a detailed analysis of a project or system failure, including the causes, consequences, and recommendations for improvement. It is an essential tool for organizations to learn from their mistakes and improve their processes.
 
+See sample Postmortem report I created for Educational Purpose [Here](https://medium.com/@happychukwuma/postmortem-report-budget-expense-tracker-website-outage-for-documentation-purposes-only-0e123bc91176)
+
 ### Purpose
 - The purpose of a postmortem report is to:
 - Identify the root cause of the failure
@@ -39,6 +41,6 @@ A typical postmortem report should include the following sections:
 - A software development team experiences a server crash that results in data loss and downtime.
 - The postmortem report identifies the root cause as a software bug and provides recommendations for improving the testing process to prevent similar failures in the future.
 
-See sample Postmortem report [Here](https://medium.com/@happychukwuma/postmortem-report-budget-expense-tracker-website-outage-for-documentation-purposes-only-0e123bc91176)
+See sample Postmortem report I created for Educational Purpose [Here](https://medium.com/@happychukwuma/postmortem-report-budget-expense-tracker-website-outage-for-documentation-purposes-only-0e123bc91176)
 
 By following these guidelines and best practices, organizations can create effective postmortem reports that help them learn from their mistakes and improve their processes.
